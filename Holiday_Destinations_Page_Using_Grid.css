@@ -2,40 +2,33 @@
     text-align: center;
     margin: 40px;
     padding: 10px;
-}
-.body {
     background-color: aquamarine;
-    align-content: center;
 }
-
 .grid-container {
     display: grid;
     background-color: aquamarine;
-    grid-template-rows: 10%;
-    width: auto;
-    height: auto;
-    align-content: center;
-}
-.grid-item1, .grid-item2 {
-    background-color: bisque;
-    color: blue;
+    column-gap: 20%;
     text-align: center;
-    margin: 40px;
-    padding: 10px;
-    border: 1px inset rgb(0, 26, 255);
-    width: auto;
-    height: auto;
+}
+.grid-item {
+    background-color: bisque;
+    width: 100%;
     align-content: center;
     }
-
-    .grid-item3, .grid-item4 {
-   background-color: bisque;
-    color: blue;
-    text-align: center;
-    margin: 40px;
-    padding: 10px;
-    border: 1px inset rgb(0, 26, 255);
-    width: auto;
-    height: auto;
+.img {
+    width: 100%;
+    }
+.btn {
+    width: 15%;
+}
+.grid-item2 {
+    background-color: bisque;
+    width: 100%;
     align-content: center;
-    } 
+    }
+.img2 {
+    width: 100%;
+    }
+.btn2 {
+    width: 15%;
+}
