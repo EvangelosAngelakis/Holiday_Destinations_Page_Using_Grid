@@ -1,31 +1,25 @@
-body {
-    height: 100%;
-    margin: 0%;
-    display: grid;
-}
 .T1 {
     text-align: center;
-    margin: 40px;
-    padding: 10px;
+    margin: 25%;
+    padding: 25px;
     background-color: aquamarine;
 }
 .grid-container {
     display: grid;
     background-color: aquamarine;
+    margin: -25%;
 }
 .grid-item {
     background-color: bisque;
     width: 50%;
     margin: 25%;
+    outline-style: groove;
+    text-align: center;
     }
 .img {
-    width: 50%;
-    margin: 25%;
+    width: 90%;
+    margin: 5%;
     }
-.btn {
-    width: 50%;
-    margin: 25%;
-}
 .grid-item2 {
     background-color: bisque;
     width: 100%;
