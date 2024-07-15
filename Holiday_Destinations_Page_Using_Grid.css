@@ -1,49 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
 .T1 {
     display: grid;
-    contain: ;
+    flex-direction: column;
     text-align: center;
     margin: top;
     padding: 25px;
-    background-color: aquamarine;
+    background-color: greenyellow;
 }
-.grid-container {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    background-color: cyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pages {
     display: grid;
-    background-color: aquamarine;
-    margin: -10%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    -ms-flex-align: center;
 }
-.grid-item {
+
+.page {
     background-color: bisque;
-    width: 50%;
-    margin: 25%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    outline-style: groove;
+    }
+
+.page img {
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
     outline-style: groove;
     text-align: center;
-    padding: 10px;
-    }
-.img {
-    width: 90%;
-    margin: 5%;
-    }
-.grid-item2 {
-    background-color: bisque;
-    width: 50%;
-    margin: 25%;
-    outline-style: groove;
-    text-align: center;
-    padding: 10px;
-    }
-.img2 {
-    width: 90%;
-    margin: 5%;
-    }
-.grid-item3 {
-    background-color: bisque;
-    width: 50%;
-    margin: 25%;
-    outline-style: groove;
-    text-align: center;
-    padding: 10px;
-    }
-.img3 {
-    width: 90%;
-    margin: 5%;
-    }
+    color: blue;
+}
+
+.page h2 {
+    margin: 10px 0;
+}
+
